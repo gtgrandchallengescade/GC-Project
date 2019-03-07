@@ -18,6 +18,6 @@ app.use('/location', location);
 app.get('/', (req,res) => {
 	res.send("Hello");
 });
-app.listen(4000, () => {
+app.listen(80, () => {
 	console.log("Listening on port 4000");
 });
